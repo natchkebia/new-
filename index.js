@@ -9,8 +9,8 @@ console.log(userCanComment)
 
 let userIsLoggedIn = true
 let userIsBlocked = false
-const UserCanPost = userIsLoggedIn && !userIsBlocked
-console.log(UserCanPost)
+const userCanPost = userIsLoggedIn && !userIsBlocked
+console.log(userCanPost)
 
 // 3. ონლაინ მაღაზია
 
